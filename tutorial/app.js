@@ -6,3 +6,9 @@ if(amount <10){
 }else{
     console.log('Large Number');
 }
+
+console.log(__dirname);
+
+setInterval(()=>{
+    console.log("Hello World");
+},100);
